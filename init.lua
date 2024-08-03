@@ -861,7 +861,7 @@ require('lazy').setup({
 
       ---@diagnostic disable-next-line: missing-fields
       require('nvim-treesitter.configs').setup(opts)
-      require('nvim-treesitter.install').compilers {'zig'}
+      require('nvim-treesitter.install').compilers = { 'zig' }
       -- There are additional nvim-treesitter modules that you can use to interact
       -- with nvim-treesitter. You should go explore a few and see what interests you:
       --
